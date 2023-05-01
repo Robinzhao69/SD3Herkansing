@@ -3,7 +3,7 @@
 $x = "global"; // global scope
 
 function firstTest() {
-    echo $x; // geeft fout melding omdat dit in local scope zit
+    // echo $x; geeft fout melding omdat dit in local scope zit
     global $x; // global keyword zorgt ervoor dat de ik de global vars kan gebruiken binnen functions.
     echo $x . "<br>";
 }
